@@ -1,16 +1,22 @@
-# IntelliJ
-.idea/
-*.iml
 
-# Maven
-target/
-!.mvn/wrapper/maven-wrapper.jar
+# Node modules and logs
+node_modules/
+npm-debug.log
+yarn-error.log
 
-# Logs
-*.log
+# Environment files
+.env
+.env.local
+.env.*.local
 
-# OS
+# macOS files
 .DS_Store
 
-# Environment
-.env
+# Build output
+dist/
+build/
+coverage/
+
+# Editor settings
+.vscode/
+.idea/
